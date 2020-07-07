@@ -11,6 +11,6 @@ $(document).ready(function() {
     						"<td>" + obj.description + "</td>";
     		content = content.concat(item);
 		});
-		$('.table').append(content);
+		$('.table-of-categories').append(content);
 	});
 });
